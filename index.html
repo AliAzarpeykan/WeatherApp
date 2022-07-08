@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/1530391_weather_clouds_sun_sunny_icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="row" id="box">
+        <div class="left col-5">
+            <h6><a href="https://Azarpeykan.com" target="_blank">Azarpeykan.com</a></h6>
+            <h1 id="degree"></h1>
+            <div id="lefttext">
+                <h3 id="cityname"></h3>
+                <h6 id="citydetail"></h6>
+            </div>
+            <p id="discription"></p>
+        </div>
+        <div class="right col-7">
+            <div id="afterclick">
+                <input type="search" id="searchbar" placeholder="Search by city name/zipcode/postalcode"><button
+                    id="searchbtn"><img src="images/icons8-search-50.svg" alt=""></button>
+                <div id="aftersearch">
+                    <div id="details">
+                        <ul id="days">
+                            <li id="day1">Tomorrow</li>
+                            <li id="day2">Second Day</li>
+                            <ul id="avgs">
+                                <li id="dy1"></li>
+                                <li id="dy2"></li>
+                            </ul>
+                        </ul><br><br><br><br>
+                        <hr size="4"><br>
+                        <h6 id="weatherdetails">Weather Details</h6>
+                        <br>
+                        <ul id="daydetails">
+                            <li>Humidity <br> <span id="humidity"></span></li>
+                            <li>Wind Speed <br><span id="windspeed"></span></li>
+                            <li>UV <br><span id="uv"></span></li>
+                            <li>Cloud <br><span id="cloud"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="texts">
+                <h4>The Weather App</h4>
+                <p>Get the weather condition of every city in the world</p>
+                <button id="btn">START</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <h6>&copy;Made By Ali Azarpeykan</h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    background: #16222A;
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+    background: linear-gradient(to bottom, #3A6073, #16222A);
+    background-repeat: no-repeat;
+
+}
+
+#box {
+    margin: 110px auto;
+    width: 900px;
+    height: 500px;
+    background-color: rgba(44, 44, 44, 0.267);
+    /* background-image: url(images/valentin-muller-bWtd1ZyEy6w-unsplash.jpg); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.right {
+    background-color: rgba(0, 0, 0, 0.405);
+    padding: 0;
+    border-radius: 0 10px 10px 0;
+
+}
+
+#texts {
+    color: rgba(219, 219, 219, 0.953);
+    margin: -225px 0 0 80px;
+    visibility: visible;
+}
+
+.texts>h4 {
+    font-weight: 700;
+}
+
+#texts>button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 50px;
+    font-weight: 700;
+    transition: box-shadow 0.6s;
+
+}
+
+.left>h6>a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.left>h6 {
+    margin: 10px;
+}
+
+#texts>button:hover {
+    transition: box-shadow 0.6s;
+    box-shadow: 2px 5px 10px black;
+}
+
+#afterclick {
+    visibility: hidden;
+}
+
+#searchbar {
+    padding: 0px 10px 15px 5px;
+    color: rgba(219, 219, 219, 0.953);
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    width: 70%;
+    margin: 60px 0 0 25px;
+    border: none;
+    border-bottom: 2px solid rgb(164, 164, 164);
+    outline: none;
+    text-transform: capitalize;
+}
+
+#searchbar::placeholder {
+    color: rgba(175, 175, 175, 0.523);
+
+}
+
+#searchbtn {
+    position: relative;
+    bottom: 23px;
+    margin: 0px 0 0 46.5px;
+    padding: 20px 18px 20px 18px;
+    border: none;
+    border-radius: 0 10px 0 0;
+    background-color: #90d4e498;
+}
+
+li {
+    display: inline-block;
+    color: #FFF;
+    padding: 0 25px;
+}
+
+#hours,
+#daydetails {
+    list-style: none;
+}
+
+hr {
+    color: rgba(175, 175, 175, 0.523);
+    background-color: rgba(175, 175, 175, 0.523);
+    width: 400px;
+    margin: 0 auto;
+}
+
+#degree {
+    color: #FFF;
+    margin: 330px 10px 0 25px;
+}
+
+#degree {
+    display: inline-block;
+}
+
+#lefttext {
+    position: relative;
+    top: 28px;
+    color: #fff;
+    display: inline-block;
+}
+
+#discription {
+    position: relative;
+    bottom: 65px;
+    color: #FFF;
+    margin: 0 0 0 200px;
+}
+
+#weatherdetails {
+    text-align: center;
+    color: #FFF;
+}
+
+#days {
+    margin: 25px 25px 0 0;
+    text-align: center;
+}
+
+#daydetails {
+    margin: 25px 25px 0 0;
+    text-align: center;
+}
+
+#avgs>li {
+    padding: 10px 32px 0 32px;
+}
+
+#avgs {
+    margin: 0 45px 0 0;
+}
+
+#aftersearch {
+    visibility: hidden;
+}
+
+.footer {
+    position: relative;
+    bottom: 100px;
+    color: #fff;
+    text-align: center
+}
