@@ -18,7 +18,7 @@ window.onload = function () {
         let searchValue = document.getElementById("searchbar").value;
         let city = searchValue;
         aftersearch.style.visibility = "visible";
-        fetch(`http://api.weatherapi.com/v1/forecast.json?key=${apik}&q=${city}&days=7`)
+        fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apik}&q=${city}&days=7`)
             .then(response => response.json())
             .then(data => {
                 document.getElementById("cityname").innerHTML = data.location.name;
